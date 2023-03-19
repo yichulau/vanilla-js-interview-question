@@ -1,0 +1,34 @@
+body {
+    width: 800px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.node {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    cursor: grab;
+}
+
+.node-selected {
+  border: 2px solid red;
+}
+
+.node-align-highlight {
+  border: 2px dotted green;
+}
+
+.circle{
+  border-radius: 50%;
+}
+
+.oval{
+  border-radius: 100%;
+  width: 150px !important;
+}
